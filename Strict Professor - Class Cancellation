@@ -7,4 +7,4 @@ for i in range(a):
     x,y=int(x),int(y)
     if (x==c and y<=d) or (x<c):
         s+=1
-print("Yes" if s&lt;b else "No")
+print("Yes" if s<=b else "No")
